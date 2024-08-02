@@ -29,7 +29,7 @@ import useUserStore from '@/stores/UserStore';
 const userStore = useUserStore();
 
 const info = ref({
-  name: "Chuckle",
+  name: "LiuShen",
   jobs: ["University Student", "Front-end Developer", "Blogger"],
   startYear: "2023",
   button: [
@@ -37,14 +37,14 @@ const info = ref({
       type: "blue",
       name: "Blog",
       fun() {
-        window.open("https://www.qcqx.cn/", "_blank");
+        window.open("https://blog.qyliu.top/", "_blank");
       }
     },
     {
       type: "white",
       name: "GitHub",
       fun() {
-        window.open("https://github.com/qxchuckle", "_blank");
+        window.open("https://github.com/willow-god", "_blank");
       }
     },
   ]
